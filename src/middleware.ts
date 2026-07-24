@@ -8,4 +8,4 @@ export default function proxy() {
 export const config = {
   // Ne cible rien de particulier, laisse l'App Router gérer les routes
   matcher: [],
-};Remove-Item -Recurse -Force .next
+};
