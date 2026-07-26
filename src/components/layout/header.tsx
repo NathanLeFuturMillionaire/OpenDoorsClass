@@ -40,14 +40,14 @@ export function Header() {
             className="hidden text-sm font-medium text-slate-700 hover:text-navy-950 sm:inline-flex"
             asChild
           >
-            <a href="/connexion">Se connecter</a>
+            <a href="/login">Se connecter</a>
           </Button>
 
           <Button
             className="hidden bg-navy-950 text-sm font-medium text-white shadow-sm transition-transform duration-200 hover:-translate-y-0.5 hover:bg-navy-900 sm:inline-flex"
             asChild
           >
-            <a href="/commencer">Commencer</a>
+            <a href="/commencer">Débuter un cours</a>
           </Button>
 
           <MobileMenu />

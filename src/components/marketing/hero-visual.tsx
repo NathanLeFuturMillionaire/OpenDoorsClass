@@ -46,12 +46,12 @@ export function HeroVisual() {
         transition={cardTransition(0.1)}
         className="absolute left-0 top-[8%] w-[62%] rounded-2xl border border-white/60 bg-white/90 p-4 shadow-[0_20px_45px_-15px_rgba(10,15,30,0.25)] backdrop-blur-sm sm:w-[58%]"
       >
-        <div className="flex items-center gap-2 text-[0.65rem] font-medium uppercase tracking-wider text-gold-700">
+        <div className="flex items-center gap-2 text-[0.65rem] font-medium uppercase tracking-wider text-green-600">
           <span className="relative flex h-1.5 w-1.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-gold-600 opacity-60" />
-            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-gold-600" />
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-600 opacity-60" />
+            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-green-600" />
           </span>
-          <span className="font-mono">En direct</span>
+          <span className="font-mono">Cours en direct</span>
         </div>
         <div className="mt-3 flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-navy-950">
@@ -59,7 +59,7 @@ export function HeroVisual() {
           </div>
           <div>
             <p className="text-sm font-semibold text-navy-950">Coaching oral</p>
-            <p className="text-xs text-slate-500">avec Sarah — Coach certifiée</p>
+            <p className="text-xs text-slate-500">avec Mister Nathan</p>
           </div>
         </div>
       </motion.div>
@@ -74,7 +74,7 @@ export function HeroVisual() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-1.5 text-[0.65rem] font-medium uppercase tracking-wider text-slate-500">
             <CalendarCheck2 className="h-3 w-3" />
-            <span className="font-mono">Semaine 14 / 32</span>
+            <span className="font-mono">Semaine 12 / 32</span>
           </div>
         </div>
         <div className="mt-3 grid grid-cols-7 gap-1.5">
