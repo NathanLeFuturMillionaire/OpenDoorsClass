@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ContactHero } from "@/components/contact/contact-hero";
 import { ContactInfoColumn } from "@/components/contact/contact-info-column";
+import { Header } from "@/components/layout/header";
 import { ContactForm } from "@/components/contact/contact-form";
 import {
   RelatedLinksSection,
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
+      <Header />
       <ContactHero />
 
       <section className="bg-paper pb-16 sm:pb-24">
