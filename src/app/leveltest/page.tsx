@@ -20,6 +20,7 @@ import {
   LevelTestFaqSection,
   LevelTestFinalCta,
 } from "@/components/leveltest/leveltest-faq-and-cta";
+import { LevelTestPricingSection } from "@/components/leveltest/leveltest-pricing-section";
 import { LevelTestFooter } from "@/components/leveltest/leveltest-footer";
 
 const title = "Test de niveau d'anglais | OpenDoorsClass";
@@ -58,6 +59,7 @@ export default function LevelTestPage() {
       <AntiFraudSection />
       <BrandSection />
       <FounderMiniSection />
+      <LevelTestPricingSection />
       <LevelTestFaqSection />
       <LevelTestFinalCta />
       <LevelTestFooter />

@@ -9,7 +9,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Programmes", href: "/programs" },
   { label: "Offres", href: "/pricing" },
   { label: "Test de niveau", href: "/leveltest" },
-  { label: "FAQ", href: "/questions" },
+  { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
 ];
 
